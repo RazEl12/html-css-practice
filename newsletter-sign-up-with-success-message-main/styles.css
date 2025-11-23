@@ -5,7 +5,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 700px;
+    width: 800px;
     height:600px;
     display: grid;
     background-color: white;
@@ -16,7 +16,24 @@
 
 
 .container img {
-  width: 100%;
+  width: 95%;
   height: 100%;
-  object-fit: contain;;
+  object-fit: fill;
+}
+
+.text {
+  padding-left: 40px;
+  padding-block: 80px;
+}
+.title{
+  font-size: 25px;
+}
+
+.opimg{
+max-height: 15px;
+max-width:25px;
+}
+
+.data{
+  padding-left: 5px;
 }
